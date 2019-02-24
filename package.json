@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js, jsx, css, json} \" ",
+    "format:check": "prettier --list-different \"src/**/*.{js, jsx, css, json} \" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAPJackie/Intro-to-React-FEM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAPJackie/Intro-to-React-FEM/issues"
+  },
+  "homepage": "https://github.com/CAPJackie/Intro-to-React-FEM#readme",
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
