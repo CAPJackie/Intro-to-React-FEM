@@ -7,6 +7,9 @@ class Pet extends React.Component {
 
     if (media && media.photos && media.photos.photo) {
       photos = media.photos.photo.filter(photo => photo["@size"] === "pn");
+      if (photos.length == 0) {
+        photos.push({ value: "nothing" });
+      }
     }
 
     return (
